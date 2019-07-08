@@ -1,6 +1,6 @@
 {
     "title": "AWS IoT Data Plane",
-    "description": "<fullname>AWS IoT</fullname> <p>AWS IoT-Data enables secure, bi-directional communication between Internet-connected things (such as sensors, actuators, embedded devices, or smart appliances) and the AWS cloud. It implements a broker for applications and things to publish messages over HTTP (Publish) and retrieve, update, and delete thing shadows. A thing shadow is a persistent representation of your things and their state in the AWS cloud.</p>",
+    "description": "AWS IoT AWS IoT-Data enables secure, bi-directional communication between\nInternet-connected things (such as sensors, actuators, embedded devices, or\nsmart appliances) and the AWS cloud. It implements a broker for applications and\nthings to publish messages over HTTP (Publish) and retrieve, update, and delete\nthing shadows. A thing shadow is a persistent representation of your things and\ntheir state in the AWS cloud.",
     "docsUrl": "https://aws.amazon.com/iot/",
     "url": "https://api.apis.guru/v2/specs/amazonaws.com/iot-data/2015-05-28/swagger.json",
     "envVars": {},
@@ -20,7 +20,7 @@
                 "label": "Custom Server URL",
                 "viewClass": "TextFieldView"
             },
-            "hmac": {
+            "auth_hmac": {
                 "label": "Authorization (hmac)",
                 "viewClass": "TextFieldView",
                 "note": "Amazon Signature authorization v4"
@@ -38,8 +38,8 @@
     "actions": {
         "DeleteThingShadow": {
             "main": "./lib/actions/DeleteThingShadow.js",
-            "title": "<p>Deletes the thing shadow for the specified thing.</p> <p>For more information, see <a href=\"http://docs.aws.amazon.com/iot/latest/developerguide/API_DeleteThingShadow.html\">DeleteThingShadow</a> in the <i>AWS IoT Developer Guide</i>.</p>",
-            "description": "<p>Deletes the thing shadow for the specified thing.</p> <p>For more information, see <a href=\"http://docs.aws.amazon.com/iot/latest/developerguide/API_DeleteThingShadow.html\">DeleteThingShadow</a> in the <i>AWS IoT Developer Guide</i>.</p>",
+            "title": "DeleteThingShadow",
+            "description": "Deletes the thing shadow for the specified thing.\n\nFor more information, see DeleteThingShadow\n[http://docs.aws.amazon.com/iot/latest/developerguide/API_DeleteThingShadow.html] \nin the AWS IoT Developer Guide.",
             "fields": {
                 "verbose": {
                     "viewClass": "CheckBoxView",
@@ -55,8 +55,8 @@
         },
         "GetThingShadow": {
             "main": "./lib/actions/GetThingShadow.js",
-            "title": "<p>Gets the thing shadow for the specified thing.</p> <p>For more information, see <a href=\"http://docs.aws.amazon.com/iot/latest/developerguide/API_GetThingShadow.html\">GetThingShadow</a> in the <i>AWS IoT Developer Guide</i>.</p>",
-            "description": "<p>Gets the thing shadow for the specified thing.</p> <p>For more information, see <a href=\"http://docs.aws.amazon.com/iot/latest/developerguide/API_GetThingShadow.html\">GetThingShadow</a> in the <i>AWS IoT Developer Guide</i>.</p>",
+            "title": "GetThingShadow",
+            "description": "Gets the thing shadow for the specified thing.\n\nFor more information, see GetThingShadow\n[http://docs.aws.amazon.com/iot/latest/developerguide/API_GetThingShadow.html] \nin the AWS IoT Developer Guide.",
             "fields": {
                 "verbose": {
                     "viewClass": "CheckBoxView",
@@ -72,8 +72,8 @@
         },
         "UpdateThingShadow": {
             "main": "./lib/actions/UpdateThingShadow.js",
-            "title": "<p>Updates the thing shadow for the specified thing.</p> <p>For more information, see <a href=\"http://docs.aws.amazon.com/iot/latest/developerguide/API_UpdateThingShadow.html\">UpdateThingShadow</a> in the <i>AWS IoT Developer Guide</i>.</p>",
-            "description": "<p>Updates the thing shadow for the specified thing.</p> <p>For more information, see <a href=\"http://docs.aws.amazon.com/iot/latest/developerguide/API_UpdateThingShadow.html\">UpdateThingShadow</a> in the <i>AWS IoT Developer Guide</i>.</p>",
+            "title": "UpdateThingShadow",
+            "description": "Updates the thing shadow for the specified thing.\n\nFor more information, see UpdateThingShadow\n[http://docs.aws.amazon.com/iot/latest/developerguide/API_UpdateThingShadow.html] \nin the AWS IoT Developer Guide.",
             "fields": {
                 "verbose": {
                     "viewClass": "CheckBoxView",
@@ -89,8 +89,8 @@
         },
         "Publish": {
             "main": "./lib/actions/Publish.js",
-            "title": "<p>Publishes state information.</p> <p>For more information, see <a href=\"http://docs.aws.amazon.com/iot/latest/developerguide/protocols.html#http\">HTTP Protocol</a> in the <i>AWS IoT Developer Guide</i>.</p>",
-            "description": "<p>Publishes state information.</p> <p>For more information, see <a href=\"http://docs.aws.amazon.com/iot/latest/developerguide/protocols.html#http\">HTTP Protocol</a> in the <i>AWS IoT Developer Guide</i>.</p>",
+            "title": "Publish",
+            "description": "Publishes state information.\n\nFor more information, see HTTP Protocol\n[http://docs.aws.amazon.com/iot/latest/developerguide/protocols.html#http] in\nthe AWS IoT Developer Guide.",
             "fields": {
                 "verbose": {
                     "viewClass": "CheckBoxView",
